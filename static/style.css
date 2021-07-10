@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.footer {
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.cell {
+  margin: 4.87%;
+  border: 5px solid black;
+  width: 15vw;
+  height: 15vh;
+  cursor: pointer;
+  display: block;
+  /*text-align: center;*/
+  font-family: sans-serif;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell:hover {
+  border: 5px solid black;
+  background: lightgrey;
+}
